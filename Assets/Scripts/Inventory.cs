@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
-
     [Header("InventoryObjects")]
     public GameObject[] item;
-
     public bool[] inventory;
+
     // Start is called before the first frame update
     void Start()
     {
-        for (int i = 0; i < item.Length; i++)
+        for (int i = 0; i < inventory.Length; i++)
         {
             inventory[i] = false;
         }
@@ -20,10 +19,18 @@ public class Inventory : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {       
-        if (item[1].activeSelf)
+    {
+        for (int i = 0; i < inventory.Length; i++)
         {
-            inventory[1] = true;
-        }               
+            if (!item[i].activeSelf)
+            {
+                inventory[i] = true;
+            }
+
+            else if (item[i].activeSelf)
+            {
+                inventory[i] = false;
+            }
+        }
     }
 }

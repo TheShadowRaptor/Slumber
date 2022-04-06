@@ -367,9 +367,6 @@ MonoBehaviour:
   inventory: {fileID: 1418969775}
   interactionObject: {fileID: 283880858}
   QuestItemNumber: 0
-  _gameObject:
-  - {fileID: 283880854}
-  - {fileID: 1375796596}
 --- !u!61 &283880857
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15379,7 +15376,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 211605980969531880, guid: d47f836c6016c6f4b863630b8baffd80, type: 3}
       propertyPath: _gameObject.Array.size
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 211605980969531880, guid: d47f836c6016c6f4b863630b8baffd80, type: 3}
       propertyPath: sentences.Array.data[0]
@@ -15410,6 +15407,14 @@ PrefabInstance:
       propertyPath: _gameObject.Array.data[1]
       value: 
       objectReference: {fileID: 283880854}
+    - target: {fileID: 211605980969531880, guid: d47f836c6016c6f4b863630b8baffd80, type: 3}
+      propertyPath: _gameObject.Array.data[2]
+      value: 
+      objectReference: {fileID: 3433993464628320151}
+    - target: {fileID: 211605980969531880, guid: d47f836c6016c6f4b863630b8baffd80, type: 3}
+      propertyPath: _gameObject.Array.data[3]
+      value: 
+      objectReference: {fileID: 158279908}
     - target: {fileID: 3433993465385397537, guid: d47f836c6016c6f4b863630b8baffd80, type: 3}
       propertyPath: m_Name
       value: Cloud9
@@ -15878,6 +15883,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 211605980969531880, guid: d47f836c6016c6f4b863630b8baffd80, type: 3}
+      propertyPath: _gameObject.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 211605980969531880, guid: d47f836c6016c6f4b863630b8baffd80, type: 3}
       propertyPath: sentences.Array.data[0]
       value: You get my RED BOOT yet?
       objectReference: {fileID: 0}
@@ -15897,6 +15906,14 @@ PrefabInstance:
       propertyPath: sentences.Array.data[4]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 211605980969531880, guid: d47f836c6016c6f4b863630b8baffd80, type: 3}
+      propertyPath: _gameObject.Array.data[0]
+      value: 
+      objectReference: {fileID: 283880854}
+    - target: {fileID: 211605980969531880, guid: d47f836c6016c6f4b863630b8baffd80, type: 3}
+      propertyPath: _gameObject.Array.data[1]
+      value: 
+      objectReference: {fileID: 1375796596}
     - target: {fileID: 3433993465385397537, guid: d47f836c6016c6f4b863630b8baffd80, type: 3}
       propertyPath: m_Name
       value: Cloud9AfterTalk
@@ -16015,7 +16032,6 @@ MonoBehaviour:
   - "Adi\xF3s."
   _gameObject:
   - {fileID: 3433993464628320151}
-  - {fileID: 158279908}
   changeDialogue: 0
   pickedUp: 0
 --- !u!1 &3433993464628320151
@@ -16038,7 +16054,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &4798010505026308741
 BoxCollider2D:
   m_ObjectHideFlags: 0

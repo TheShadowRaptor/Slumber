@@ -11,8 +11,8 @@ public class FetchQuest : MonoBehaviour
     [Header("QuestItemNumber")]
     public int QuestItemNumber;
 
-    [Header("ToggleGameObjects")]
-    public GameObject[] _gameObject;
+    private bool runOnce = true;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,9 +22,10 @@ public class FetchQuest : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (inventory.inventory[QuestItemNumber] == true)
+        if (inventory.inventory[QuestItemNumber] == true && runOnce == true)
         {
             interactionObject.ToggleObjectsActive();
+            runOnce = false;
         }
     }
 }
