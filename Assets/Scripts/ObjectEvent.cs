@@ -13,10 +13,16 @@ public class ObjectEvent : MonoBehaviour
     {
         interactionObject = playerInteractable.currentInterObjScript;
 
-        if (dialogueManager.dialogueEnded == true)
+        if (!interactionObject)
+        {
+            interactionObject = null;
+        }
+
+        else if (dialogueManager.dialogueEnded == true && interactionObject.changeDialogue == true)
         {
             interactionObject.ToggleObjectsActive();
             dialogueManager.dialogueEnded = false;
-        }   
+            
+        }  
     }
 }

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class interactionObject : MonoBehaviour
 {
@@ -18,7 +19,7 @@ public class interactionObject : MonoBehaviour
 
     [Header("Simple info Message")]
     public string infoMessage;
-    private Text infoText;
+    private TextMeshProUGUI infoText;
 
     [Header("Dialogue Text")]
     public DialogueManager dialogueManager;
@@ -27,14 +28,13 @@ public class interactionObject : MonoBehaviour
 
     [Header("ToggleGameObjects")]
     public GameObject[] _gameObject;
-
     [Header("Remove gameObjects depending if the dialogue ended or not")]
     public bool changeDialogue;
     [HideInInspector] public bool pickedUp;
 
     public void Start()
     {
-        infoText = GameObject.Find("InfoText").GetComponent<Text>();
+        infoText = GameObject.Find("InfoText").GetComponent<TextMeshProUGUI>();
     }
 
     public void Nothing()
