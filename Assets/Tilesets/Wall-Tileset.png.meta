@@ -56,6 +56,12 @@ TextureImporter:
   - first:
       213: -3330464088908989809
     second: Wall-Tileset_17
+  - first:
+      213: -8976353102701007641
+    second: Wall-Tileset_18
+  - first:
+      213: -5365135239682819521
+    second: Wall-Tileset_19
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -401,7 +407,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 128
+        y: 192
         width: 64
         height: 64
       alignment: 0
@@ -421,7 +427,7 @@ TextureImporter:
       name: Wall-Tileset_13
       rect:
         serializedVersion: 2
-        x: 64
+        x: 0
         y: 128
         width: 64
         height: 64
@@ -442,8 +448,8 @@ TextureImporter:
       name: Wall-Tileset_14
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
+        x: 64
+        y: 128
         width: 64
         height: 64
       alignment: 0
@@ -463,8 +469,8 @@ TextureImporter:
       name: Wall-Tileset_15
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
+        x: 128
+        y: 128
         width: 64
         height: 64
       alignment: 0
@@ -485,7 +491,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 64
         width: 64
         height: 64
       alignment: 0
@@ -506,7 +512,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 0
+        y: 64
         width: 64
         height: 64
       alignment: 0
@@ -518,6 +524,48 @@ TextureImporter:
       bones: []
       spriteID: f8a72638e80d7c1d0800000000000000
       internalID: -3330464088908989809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall-Tileset_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ece70f69669d6380800000000000000
+      internalID: -8976353102701007641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall-Tileset_19
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a76cadce53b85b0800000000000000
+      internalID: -5365135239682819521
       vertices: []
       indices: 
       edges: []

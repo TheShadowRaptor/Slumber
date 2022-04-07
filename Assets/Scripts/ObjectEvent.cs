@@ -15,14 +15,13 @@ public class ObjectEvent : MonoBehaviour
 
         if (!interactionObject)
         {
-            interactionObject = null;
+            return;
         }
 
         else if (dialogueManager.dialogueEnded == true && interactionObject.changeDialogue == true)
         {
             interactionObject.ToggleObjectsActive();
-            dialogueManager.dialogueEnded = false;
-            
+            dialogueManager.dialogueEnded = false;   
         }  
     }
 }

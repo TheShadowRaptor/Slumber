@@ -23,6 +23,7 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(string[] sentences)
     {
+        dialogueEnded = false;
         dialogue.Clear();
         dialogueUI.SetActive(true);
 

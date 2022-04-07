@@ -45,7 +45,7 @@ SpriteAtlas:
     packables:
     - {fileID: 2800000, guid: 0d0472284c665a547978f43b16935f24, type: 3}
     - {fileID: 2800000, guid: e536ade7e4ac39a4f8230c1f972801c9, type: 3}
-    totalSpriteSurfaceArea: 135168
+    totalSpriteSurfaceArea: 143360
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -69,6 +69,8 @@ SpriteAtlas:
   - {fileID: -9163769125362033051, guid: e536ade7e4ac39a4f8230c1f972801c9, type: 3}
   - {fileID: 359312656093529405, guid: e536ade7e4ac39a4f8230c1f972801c9, type: 3}
   - {fileID: -3330464088908989809, guid: e536ade7e4ac39a4f8230c1f972801c9, type: 3}
+  - {fileID: -8976353102701007641, guid: e536ade7e4ac39a4f8230c1f972801c9, type: 3}
+  - {fileID: -5365135239682819521, guid: e536ade7e4ac39a4f8230c1f972801c9, type: 3}
   - {fileID: -2982568940789702501, guid: 0d0472284c665a547978f43b16935f24, type: 3}
   - {fileID: -3942954368471038650, guid: 0d0472284c665a547978f43b16935f24, type: 3}
   - {fileID: -2678035617764148919, guid: 0d0472284c665a547978f43b16935f24, type: 3}
@@ -103,6 +105,8 @@ SpriteAtlas:
   - Wall-Tileset_15
   - Wall-Tileset_16
   - Wall-Tileset_17
+  - Wall-Tileset_18
+  - Wall-Tileset_19
   - Floor_Tileset_12
   - Floor_Tileset_13
   - Floor_Tileset_10
