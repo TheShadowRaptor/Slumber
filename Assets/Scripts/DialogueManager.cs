@@ -13,6 +13,7 @@ public class DialogueManager : MonoBehaviour
 
     private Queue<string> dialogue;
 
+    // Checks current state of the dialogue
     public bool dialogueEnded = false;
 
     // Start is called before the first frame update
@@ -43,8 +44,7 @@ public class DialogueManager : MonoBehaviour
         if (dialogue.Count == 0)
         {
             //Remove GameObjects
-            EndDialogue();
-            dialogueEnded = true;
+            EndDialogue();           
             return;
         }
         string currentLine = dialogue.Dequeue();
@@ -52,6 +52,7 @@ public class DialogueManager : MonoBehaviour
     }
     private void EndDialogue()
     {
+        dialogueEnded = true;
         dialogueUI.SetActive(false);
         player.GetComponent<PlayerMovement_2D>().enabled = true;
         player.GetComponent<PlayerInteractable>().enabled = true;
