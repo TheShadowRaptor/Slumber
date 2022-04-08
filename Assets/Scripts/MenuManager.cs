@@ -30,6 +30,6 @@ public class MenuManager : MonoBehaviour
 
     public void SwitchScene()
     {
-        SceneManager.LoadScene(sceneBuildIndex: 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
